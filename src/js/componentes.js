@@ -36,7 +36,7 @@ txtInput.addEventListener( 'keyup', ( event ) => {
         const newTodo = new Todo( txtInput.value );
         todoList.newTodo( newTodo );
 
-        console.log( todoList );
+        //console.log( todoList );
 
         createTodoHtml( newTodo );
         txtInput.value = '';
@@ -47,7 +47,7 @@ divTodoList.addEventListener( 'click', ( event ) => {
     const nameElement = event.target.localName; // input, button, click
     const todoElement = event.target.parentElement.parentElement;
     const todoId= todoElement.getAttribute('data-id');
-    console.log( todoId );
+    //console.log( todoId );
 
     if( nameElement.includes( 'input' ) ){
         todoList.toggleTodo( todoId );
