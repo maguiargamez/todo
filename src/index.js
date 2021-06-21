@@ -9,7 +9,7 @@ todoList.todos.forEach( createTodoHtml );
 
 // console.log( 'todos', todoList.todos );
 
-todoList.todos[0].printClass();
+// todoList.todos[0].printClass();
 
 // localStorage.setItem( 'myKey', 'abc1234' );
 
